@@ -16,9 +16,5 @@ jobs:
         uses: crazy-max/ghaction-virustotal@v2
         with:
           vt_api_key: a4cd4b0f39775ebe1e3662f24353e31ac61ac04a9f6c4630d1a2b1664b6d33ec
-          files: |
-            .jpg$
-            .tiff$
-            .tif$
-            .gif$
+          files: /recipe/Tests/images/*
 
